@@ -6,7 +6,7 @@ const loadUsers = () => {
 const displayUsers = users => {
     const userContainer = document.getElementById('users-container');
     for (const user of users) {
-        console.log(user.picture.large);
+        // console.log(user.picture.large);
         const userDiv = document.createElement('div');
         userDiv.classList.add('user')
         userDiv.innerHTML = `
