@@ -40,7 +40,7 @@ const loadMealDetail = (idMeal) => {
 };
 
 const displayMealDetails = (meal) => {
-    console.log(meal);
+    // console.log(meal);
     const DetailContainer = document.getElementById('detail-container');
     DetailContainer.innerHTML = ``;
     const mealDiv = document.createElement('div');
@@ -56,4 +56,4 @@ const displayMealDetails = (meal) => {
     DetailContainer.appendChild(mealDiv);
 };
 
-loadMeals('');
+// loadMeals('');
